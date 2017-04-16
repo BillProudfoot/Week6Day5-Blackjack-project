@@ -40,9 +40,9 @@ public class Game {
 
   public void deal(){
     for (Player player : this.players){
-      player.setHand(deck.get(0), deck.get(1));
+      player.setHand(deck.get(0));
       deck.remove(0);
-      deck.remove(0);
+      // deck.remove(0);
     } 
   }
 

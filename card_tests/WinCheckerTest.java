@@ -23,7 +23,7 @@ public class WinCheckerTest {
 
 @Test
 public void whoWins(){
-  assertEquals("Craig wins", player1.card1());
+  assertEquals("Craig wins", player1.hand());
 }
 
 }

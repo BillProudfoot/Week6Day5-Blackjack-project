@@ -16,7 +16,7 @@ public class PlayerTest {
     player2 = new Player("Craig");
     card1 = new Card(2, Suit.Clubs);
     card2 = new Card(3, Suit.Spades);
-    player1.setHand(card1, card2);
+    player1.setHand(card1);
   }
 
   @Test
